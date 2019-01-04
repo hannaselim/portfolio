@@ -66,6 +66,28 @@ body {
   background-color: #f1f1f1;
 }
 
+/* CV timeline */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #474e5d;
+    font-family: "";
+}
+
+/* the timeline - vertical */
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
 /* Responsive layout */
 @media screen and (max-width:600px) {
   .column {
