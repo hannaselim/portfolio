@@ -40,11 +40,6 @@ body {
 
 /* images */
 
-#mainimg{
-    height: 21em;
-    padding-left: px;
-}
-
 .responsive {
   width: 100%;
   height: auto;
@@ -62,6 +57,13 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.position{
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  background-color: #f1f1f1;
 }
 
 /* Responsive layout */
