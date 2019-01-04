@@ -110,6 +110,43 @@ body {
     z-index: 1;
 }
 
+/* arrows to the left container (point right) */
+.left::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent white;
+}
+
+/* arrows to the right container (point left) */
+.right::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px;
+    border-color: transparent white transparent transparent;
+}
+
+/* responsive media queries - timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    /* timeline to the left */
+    .timeline::after {
+        left:31px;
+    }
+}
+
+/* full-width conainters */
 
 /* Responsive layout */
 @media screen and (max-width:600px) {
