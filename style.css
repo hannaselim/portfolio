@@ -105,7 +105,12 @@ body {
     right: -17px;
     background-color: white;
     border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
 }
+
+
 /* Responsive layout */
 @media screen and (max-width:600px) {
   .column {
